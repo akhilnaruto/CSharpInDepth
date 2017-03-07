@@ -35,6 +35,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter1\SortingAndFiltering\Filtering\QueringInCSharp2.cs" />
+    <Compile Include="Chapter1\SortingAndFiltering\Filtering\QueryingInCSharp1.cs" />
+    <Compile Include="Chapter1\SortingAndFiltering\Filtering\QueryingInCSharp3.cs" />
+    <Compile Include="Chapter1\SortingAndFiltering\Product.cs" />
     <Compile Include="Chapter1\SortingAndFiltering\Sorting\ProductSortingInCSharp3.cs" />
     <Compile Include="Chapter1\SortingAndFiltering\Sorting\ProductsSortingInCSharp2.cs" />
     <Compile Include="Chapter1\SortingAndFiltering\Sorting\ProductsSortingInCSharp1.cs" />
@@ -42,8 +46,6 @@
   <ItemGroup>
     <Reference Include="System" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Chapter1\SortingAndFiltering\Filtering\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -28,13 +28,5 @@ namespace CSharpInDepth.Chapter1.SortingAndFiltering
     }
   }
 
-  public class Product
-  {
-    public string Name { get; set; }
 
-    public static List<Product> GetSamplesProducts()
-    {
-      return new List<Product>();
-    } 
-  }
 }
