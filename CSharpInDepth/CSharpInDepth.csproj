@@ -34,10 +34,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Compile Include="Chapter1\SortingAndFiltering\ProductsSortingInCSharp2.cs" />
-    <Compile Include="Chapter1\SortingAndFiltering\ProductsSortingInCSharp1.cs" />
+    <Compile Include="Chapter1\SortingAndFiltering\Sorting\ProductSortingInCSharp3.cs" />
+    <Compile Include="Chapter1\SortingAndFiltering\Sorting\ProductsSortingInCSharp2.cs" />
+    <Compile Include="Chapter1\SortingAndFiltering\Sorting\ProductsSortingInCSharp1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Chapter1\SortingAndFiltering\Filtering\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
